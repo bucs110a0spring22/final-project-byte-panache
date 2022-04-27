@@ -1,30 +1,36 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
-# << Project Title >>
+#  Whack-A-Mole 
 ## CS 110 Final Project
-### << Semester, Year >>
-### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit#)
+### Spring Semester, 2022 
+### [Assignment Description](https://docs.google.com/document/d/17qiZWoMwS6zSRvudSRDmF6hJhJLj_s3nkh4DuxMlsgI/edit?usp=sharing)
 
 << [repl](#) >>
 
-<< [link to demo presentation slides](#) >>
+<< [https://docs.google.com/presentation/d/1rkXqb2LRCy1dBhO1xnJrhbHrU_OUvrY93ZE1MePuGB8/edit?usp=sharing](#) >>
 
 ### Team: << team name >>
-#### << Team Members >>
+#### Maggie Lam, Nashara Marrow, Joseph Pena
 
 ***
 
 ## Project Description *(Software Lead)*
 
-<< Give an overview of your project >>
+<< Our final project will be based on the arcade game whack-a-mole. The user will be using their mouse to hit different moles in a set time span. This game will feature different moles that give extra points and obstacles like bombs that will get in the way of the user. >>
 
 ***    
 
 ## User Interface Design *(Front End Specialist)*
 
-* << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. >>
-    * For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components
+***Milestone II***
+* << In our project their will be a staring game button when you click you will enter a wack a mole game where there will be different variations of moles that go faster and slower , in addition to these moles there will be a bombs that make the player lose points , score will be kept on screen and after the time runs out the game will be over. The classes needed are a character class , time class , a class for keeping score and a class that changes the moles speed once the time gets to a certain point with in the game.  >>
+  * time : time function, decrease for rounds(depends on amount of rounds)
+  * moles : randomizing mole function, sprite, rectangular hit box, similar code for all three moles except for the amount of points and time it takes to spawn.
+  * points : takes information from the moles.py, should have an if else statement depending if a mole or bomb is touched. points have to be written on the screen
+  * bombs : Similar code to moles.py
+  * rounds : speed python function
 * << You should also have a screenshot of each screen for your final GUI >>
+
 
 ***        
 
@@ -40,7 +46,12 @@
         * ![class diagram](assets/class_diagram.jpg)
     * This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm.
 * Classes
-    * << You should have a list of each of your classes with a description. >>
+    * Moles - A class that defines an object that the player needs to interact with...
+    * Bombs - A class that defines an obstacle that the player needs to avoid...
+    * Extra Point Mole - A class that defines an object that the player needs to interact with...
+    * Fast Mole - A class that defines an object that the player needs to interact with...
+
+
 
 ## Project Structure *(Software Lead)*
 
@@ -60,15 +71,15 @@ The Project is broken down into the following file structure:
 
    * You must outline the team member roles and who was responsible for each class/method, both individual and collaborative.
 
-### Software Lead - << name >>
+### Software Lead - << Maggie Lam >>
 
 << Worked as integration specialist by... >>
 
-### Front End Specialist - << name >>
+### Front End Specialist - << Nashara >>
 
 << Front-end lead conducted significant research on... >>
 
-### Back End Specialist - << name >>
+### Back End Specialist - << Joseph >>
 
 << The back end specialist... >>
 
