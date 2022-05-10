@@ -67,13 +67,13 @@ class Controller:
     self.all_sprites = pygame.sprite.Group((self.mole,) + tuple(self.holeList))
     
     # Death Screen setup
-    self.img_death= pygame.image.load((Consts.IMAGEDEATHSCREEN))
-    self.img_death= pygame.transform.scale(self.img_death, (Consts.DSWIDTH, Consts.DSHEIGHT))
+    self.img_death = pygame.image.load((Consts.IMAGEDEATHSCREEN))
+    self.img_death = pygame.transform.scale(self.img_death, (Consts.DSWIDTH, Consts.DSHEIGHT))
 
     # Game logic setup
     self.alive = True
     self.lives = 3
-    self.score= 0
+    self.score = 0
 
     # Update screen with the background we just added
     pygame.display.flip()
