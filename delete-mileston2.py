@@ -1,3 +1,7 @@
+#this doesn't work out, not organized, so imma scrap it
+
+
+
 import pygame
 import random
 import math
@@ -9,7 +13,8 @@ bg_image = pygame.image.load("Screen.png")
 bg_image = pygame.transform.scale(bg_image, (bg_image.get)width() * 3, bg_image.get_height() * 3))
 screen = pygame.display.set_mode((bg_image.get_width(), bg_image.get_height()))
 
-
+#pygame.display.set_mode Initialize a window or screen for display
+#
 
 score_value = 0
 font = pygame.font.sysFont{'timesnewroman', 32)
@@ -28,7 +33,10 @@ NUM_ROW = 3
 possible_mole_pos = [(#find the coordinates later on the screen)]
 
 mole_image = pygame.image.load("mole1.png")
+#gives mole image
 mole_image = pygame.transform.scale(mole_image, (mole_image.getwidth()// 2, mole_image.get_height()//2))
+#pygame.transform.scale resize to new resolution
+
 
 MOLE_RADIUS = min(mole_image.get_width(), mole_image.get_height())// 2.5
 
@@ -62,7 +70,7 @@ def generate_next_mole_pos():
     if not check_exist(new_pos):
       break
   return new_pos
-''' creates the next new moles , randomizes the new possition based on the row and column , arg= (), returns random mole position'''
+''' creates the next new moles , randomizes the new position based on the row and column , arg= (), returns random mole position'''
 
 
 def draw_moles():

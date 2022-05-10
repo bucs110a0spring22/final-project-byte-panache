@@ -16,7 +16,7 @@
 
 ## Project Description *(Software Lead)*
 
-<< Our final project will be based on the arcade game whack-a-mole. The user will be using their mouse to hit different moles in a set time span. This game will feature different moles that give extra points and obstacles like bombs that will get in the way of the user. >>
+<< Our final project will be based on the arcade game whack-a-mole. The user will be using their mouse to hit different moles in a set time span. This game will feature moles and bombs. The player will have 3 lives, and will die after touching a bomb 3 times.  >>
 
 ***    
 
@@ -71,15 +71,15 @@ The Project is broken down into the following file structure:
 
    * You must outline the team member roles and who was responsible for each class/method, both individual and collaborative.
 
-### Software Lead - << Maggie Lam >>
+### Software Lead - << Nashara M >>
 
 << Worked as integration specialist by... >>
 
-### Front End Specialist - << Nashara >>
+### Front End Specialist - <<Maggie Lam >>
 
-<< Front-end lead conducted significant research on... >>
+< I created the controller class, making the mole/bombs and all the loops. I also had a hand in the models and constants class making the updates and constants >
 
-### Back End Specialist - << Joseph >>
+### Back End Specialist - << Joseph P >>
 
 << The back end specialist... >>
 
@@ -95,3 +95,4 @@ The Project is broken down into the following file structure:
 |  1  | Run Counter Program  | GUI window appears with count = 0  |          |
 |  2  | click count button  | display changes to count = 1 |                 |
 etc...
+|   3    |       |      |
