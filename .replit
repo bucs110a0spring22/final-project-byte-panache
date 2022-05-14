@@ -1,3 +1,4 @@
 language="pygame"
 run="python3 main.py"
+#run="python3 testing.py"
 #pygame.transform.resize 
